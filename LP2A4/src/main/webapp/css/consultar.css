@@ -1,0 +1,99 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+
+main {
+	padding: 20px;
+}
+
+nav {
+	align-items: center;
+	background-color: #003369;
+	box-sizing: border-box;
+	display: flex;
+	height: 70px;
+	justify-content: space-between;
+	padding-inline: 25%;
+	width: 100%;
+}
+
+span a{
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h1 {
+	color: #003369;
+	font-size: 22px;
+}
+
+.filter label {
+	font-weight: bold;
+}
+
+.filter label input {
+	border: 0.5px solid gray;
+	border-radius: 5px;
+	box-sizing: border-box;
+	height: 40px;
+	padding-inline: 7.5px;
+	width: 350px;
+}
+
+.button {
+	background-color: #039BE5;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	cursor: pointer;
+	font-weight: bold;
+	height: 40px;
+	margin-block: 20px;
+	width: 140px;
+	transition: 1s;
+}
+
+.button:hover {
+	background-color: #01579B;
+}
+
+.tr {
+	border-inline: 0.5px solid gray;
+	border-bottom: 0.5px solid gray;
+	padding-block: 5px;
+	width: 350px;
+}
+
+.tr:first-child {
+	border-top: 0.5px solid gray;
+}
+
+.th {
+	color: #003369;
+	padding-left: 10px;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.td {
+	position: absolute;
+	left: 150px;
+	
+	border-left: 0.5px solid gray;
+	font-size: 12px;
+	padding-left: 10px;
+}
+
+.buttons {
+	margin-bottom: 25px;
+}
+
+.delete-button {
+	background-color: #F44336;
+}
+
+.delete-button:hover {
+	background-color: #C62828;
+}
